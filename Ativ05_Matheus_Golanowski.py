@@ -1,4 +1,4 @@
-preco = input("Qual é o valor do produto: ")
+preco = int(input("Qual é o valor do produto: "))
 
 if  preco <= 100:
     margem = (preco * 0.45) + preco
